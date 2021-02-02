@@ -1,11 +1,10 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="Images/Microchip.png" alt="MCHP" width="300";"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
 # PIC18F47Q10 Changing Data Transfer Type
 
 ## Objective
 This repository contains an example of MCC generated source code for SPI as described in [*TB3265 - Getting Started with SPI using MSSP on PIC18*](http://ww1.microchip.com/downloads/en/DeviceDoc/Getting-Started-With-SPI-Using-MSSP-on-PIC18-DS90003265A.pdf) document from Microchip.
-<br>In this demo, the SPI will be configured as master and it will be used to send data to a slave device, in data mode 3.
+<br>In this demo, the SPI will be configured as host and it will be used to send data to a client device, in data mode 3.
 
 ## Related Documentation
 - [TB3265 - Getting Started with SPI using MSSP on PIC18](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1002275)
@@ -62,7 +61,7 @@ The following configurations must be made for this project:
 4. Select the *PIC18F47Q10 Curiosity Nano* in the *Hardware Tool* section of the project settings:
   - Right click on the project and click *Properties*;
   - Select the *PIC18F47Q10 Curiosity Nano* (click on the SN) in the *Hardware Tool* tab and then click *OK*:
-<br><img src="Images/SPI-master-mode-mcc-tool.PNG" width="600">
+<br><img src="Images/SPI-host-mode-mcc-tool.PNG" width="600">
 
 
 5. Program the project to the board: right click on the project and click *Make and Program Device*.
